@@ -227,4 +227,37 @@ a:visited {
   .sidebar {
     display: none;
   }
+  .form__btn-container {
+    display: flex;
+    align-items: center;
+    justify-content: end;
+  }
+  .form__btn {
+    display: flex;
+    flex: 1;
+    font-family: inherit;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    font-weight: bold;
+    color: #ececec;
+    cursor: pointer;
+    background: linear-gradient(to top left, #ffb545, #00c46a);
+    border-radius: 2rem;
+    border: 1px solid none;
+  }
+
+  .form {
+    background-color: var(--color-dark--2);
+    border-radius: 5px;
+    padding: 1.5rem 2.75rem;
+    margin-bottom: 1.75rem;
+
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 0.5rem 2.5rem;
+
+    height: 10.25rem;
+    transition: all 0.5s, transform 1ms;
+  }
 }
